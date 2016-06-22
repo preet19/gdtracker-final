@@ -28,14 +28,11 @@ namespace gameTrackerFinal1
                 case "Home Page":
                     home.Attributes.Add("class", "active");
                     break;
-                case "Products":
+                case "Register":
                     projects.Attributes.Add("class", "active");
                     break;
-                case "Services":
+                case "Login":
                     services.Attributes.Add("class", "active");
-                    break;
-                case "About":
-                    about.Attributes.Add("class", "active");
                     break;
                 case "Contact":
                     contact.Attributes.Add("class", "active");
